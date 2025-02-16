@@ -23,10 +23,7 @@ This project is an implementation of the **Sleeping Barber Problem**, a classic 
 - The barber either sleeps (when no customers are waiting) or serves customers one by one.  
 - The barber chair and waiting room seats are controlled using **semaphores**, ensuring proper synchronization.  
 
-## Test the Code Here  
-
-[Click to open in Google Colab](https://colab.research.google.com/drive/19jn10l2xzTtZGDBZepiy7HlMYs3WTNsN?usp=sharing)  
-
+## Test the Code [Here](https://colab.research.google.com/drive/19jn10l2xzTtZGDBZepiy7HlMYs3WTNsN?usp=sharing) 
 ---
 
 ## How to Run Locally  
