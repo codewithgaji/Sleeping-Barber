@@ -26,11 +26,3 @@ This project is an implementation of the **Sleeping Barber Problem**, a classic 
 ## Test the Code [Here](https://colab.research.google.com/drive/19jn10l2xzTtZGDBZepiy7HlMYs3WTNsN?usp=sharing) 
 ---
 
-## How to Run Locally  
-
-1. Install Python (if not already installed).  
-2. Copy the `sleeping_barber.py` file to your system.  
-3. Run the script:  
-
-   ```bash
-   python sleeping_barber.py
