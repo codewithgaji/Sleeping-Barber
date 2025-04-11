@@ -16,3 +16,20 @@ This project is an implementation of the **Sleeping Barber Problem**, a classic 
    - Using **semaphores**, I managed access to the waiting room chairs and the barber’s chair.  
    - I also learned to use **thread synchronization techniques**, such as the `Event` object, to signal when a customer arrives.  
 
+## How the Code Works  
+
+- Customers arrive at the barbershop and check for an available waiting seat.  
+- If a seat is available, they take a seat and wait for the barber. Otherwise, they leave.  
+- The barber either sleeps (when no customers are waiting) or serves customers one by one.  
+- The barber chair and waiting room seats are controlled using **semaphores**, ensuring proper synchronization.  
+
+## Test the Code [Here](https://colab.research.google.com/drive/19jn10l2xzTtZGDBZepiy7HlMYs3WTNsN?usp=sharing) 
+---
+## How to Run Locally  
+
+1. Install Python (if not already installed).  
+2. Copy the `sleeping_barber.py` file to your system.  
+3. Run the script:  
+
+   ```bash
+   python sleeping_barber.py
